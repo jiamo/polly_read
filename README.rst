@@ -31,8 +31,9 @@ example
 * file or dir tranlate ::
 
     python main.py --infile test.txt --outfile test.mp3 --voice Joey
-    python main.py --indir testdir --voice Joey
+    python main.py --indir testdir --voice Joey # this will create mp3 indir
 
 
-* aws test
-    only call tex
+* in memory translate and put file to s3 ::
+
+    just use `io.BytesIO`
