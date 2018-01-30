@@ -1,0 +1,12 @@
+txts
+.idea
+__pycache__
+*.pyc
+.cache
+*.mp3
+.DS_Store
+Joey/
+Kendra/
+Matthew/
+Salli/
+*.txt
