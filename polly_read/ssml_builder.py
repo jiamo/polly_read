@@ -47,7 +47,12 @@ class Item:
         )
 
     def to_ssml(self):
-        return '<speak> <prosody rate="default"> {} </prosody> </speak>'.format(str(self))
+        # May be we need to know which word should add such
+        # these need to parse the text add mark it
+        # So it need NLP to processing the text
+        return '<speak> <amazon:auto-breaths frequency="low" volume="soft"' \
+               ' duration="x-short"> <prosody rate="default"> {} </prosody> ' \
+               '</amazon:auto-breaths> </speak>'.format(str(self))
 
 
 class Word(Item):
