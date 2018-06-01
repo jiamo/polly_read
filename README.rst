@@ -18,8 +18,6 @@ polly_read
      :alt: Updates
 
 
-another python wraper for firebase cloud message
-
 
 * Free software: MIT license
 * Documentation: https://polly_read.readthedocs.io.
